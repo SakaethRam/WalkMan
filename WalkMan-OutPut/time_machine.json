@@ -1,0 +1,307 @@
+{
+  "history": {
+  "file": "walkman_output/time_machine_damaged.wav",
+  "sampleRate": 8000,
+  "channels": 2,
+  "durationSeconds": 4,
+  "regions": [
+    {
+      "id": 1,
+      "start": 5592,
+      "end": 6274,
+      "damageType": "ZERO_DROPOUT",
+      "selectedHypothesis": "R1",
+      "reverted": false,
+      "hypotheses": [
+        {
+          "id": "R1",
+          "algorithm": "WAVEFORM_MATCH",
+          "score": 71.5420807528,
+          "confidence": 0.686803975227,
+          "selected": true,
+          "metrics": {"mse": 0.00280192859075, "snrDb": 17.1907824996, "correlation": 0.990424299376, "rmsError": 0.052933246554, "spectralError": 2.97052537871},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 1},
+          "reasoning": "Score 71.54/100 from ZERO_DROPOUT evidence. Highest local waveform correlation. Lowest RMS reconstruction error. Strongest spectral continuity. Highest measured SNR. Ranked first among 4 retained hypotheses."
+        },
+        {
+          "id": "R2",
+          "algorithm": "LINEAR",
+          "score": 26.5703319751,
+          "confidence": 0.255075186961,
+          "selected": false,
+          "metrics": {"mse": 0.234813902244, "snrDb": -2.04188493175, "correlation": -0.0183598614982, "rmsError": 0.484576002546, "spectralError": 22.5912721413},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 2},
+          "reasoning": "Score 26.57/100 from ZERO_DROPOUT evidence."
+        },
+        {
+          "id": "R3",
+          "algorithm": "SPLINE",
+          "score": 26.3191681588,
+          "confidence": 0.252664014325,
+          "selected": false,
+          "metrics": {"mse": 0.240923775387, "snrDb": -2.15344347421, "correlation": -0.0186844328358, "rmsError": 0.490839867357, "spectralError": 22.8327848149},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 3},
+          "reasoning": "Score 26.32/100 from ZERO_DROPOUT evidence."
+        },
+        {
+          "id": "R4",
+          "algorithm": "SPECTRAL",
+          "score": 20.4414997117,
+          "confidence": 0.196238397232,
+          "selected": false,
+          "metrics": {"mse": 0.339821821445, "snrDb": -3.6471595065, "correlation": -0.192067570962, "rmsError": 0.582942382612, "spectralError": 20.0183189466},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 4},
+          "reasoning": "Score 20.44/100 from ZERO_DROPOUT evidence."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 12392,
+      "end": 12853,
+      "damageType": "CLIPPING",
+      "selectedHypothesis": "R5",
+      "reverted": false,
+      "hypotheses": [
+        {
+          "id": "R5",
+          "algorithm": "WAVEFORM_MATCH",
+          "score": 70.8790587883,
+          "confidence": 0.637911529095,
+          "selected": true,
+          "metrics": {"mse": 0.00179326548263, "snrDb": 16.4693087585, "correlation": 0.991295261156, "rmsError": 0.0423469654477, "spectralError": 1.50123913283},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 1},
+          "reasoning": "Score 70.88/100 from CLIPPING evidence. Highest local waveform correlation. Lowest RMS reconstruction error. Strongest spectral continuity. Highest measured SNR. Ranked first among 4 retained hypotheses."
+        },
+        {
+          "id": "R6",
+          "algorithm": "LINEAR",
+          "score": 29.4669066939,
+          "confidence": 0.265202160245,
+          "selected": false,
+          "metrics": {"mse": 0.131585828276, "snrDb": -2.18633653542, "correlation": 0.0442833935236, "rmsError": 0.362747609608, "spectralError": 13.8348371404},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 2},
+          "reasoning": "Score 29.47/100 from CLIPPING evidence."
+        },
+        {
+          "id": "R7",
+          "algorithm": "SPLINE",
+          "score": 29.2395110071,
+          "confidence": 0.263155599064,
+          "selected": false,
+          "metrics": {"mse": 0.133981536959, "snrDb": -2.2646949049, "correlation": 0.0389837729361, "rmsError": 0.366034884893, "spectralError": 14.0337116391},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 3},
+          "reasoning": "Score 29.24/100 from CLIPPING evidence."
+        },
+        {
+          "id": "R8",
+          "algorithm": "SPECTRAL",
+          "score": 28.9816220232,
+          "confidence": 0.260834598209,
+          "selected": false,
+          "metrics": {"mse": 0.149101578375, "snrDb": -2.72906775908, "correlation": 0.0862117550104, "rmsError": 0.386136735335, "spectralError": 14.1350150298},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 4},
+          "reasoning": "Score 28.98/100 from CLIPPING evidence."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 18396,
+      "end": 18901,
+      "damageType": "CLIPPING",
+      "selectedHypothesis": "R9",
+      "reverted": false,
+      "hypotheses": [
+        {
+          "id": "R9",
+          "algorithm": "SPECTRAL",
+          "score": 44.6930000594,
+          "confidence": 0.402237000534,
+          "selected": true,
+          "metrics": {"mse": 0.0418687972778, "snrDb": 1.2571763802, "correlation": 0.633394595602, "rmsError": 0.204618663073, "spectralError": 8.39461001683},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 1},
+          "reasoning": "Score 44.69/100 from CLIPPING evidence. Lowest RMS reconstruction error. Highest measured SNR. Ranked first among 4 retained hypotheses."
+        },
+        {
+          "id": "R10",
+          "algorithm": "WAVEFORM_MATCH",
+          "score": 44.4192973944,
+          "confidence": 0.39977367655,
+          "selected": false,
+          "metrics": {"mse": 0.0452740734519, "snrDb": 0.91758552453, "correlation": 0.653441548842, "rmsError": 0.212777051046, "spectralError": 5.5398288069},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 2},
+          "reasoning": "Score 44.42/100 from CLIPPING evidence. Highest local waveform correlation. Strongest spectral continuity."
+        },
+        {
+          "id": "R11",
+          "algorithm": "LINEAR",
+          "score": 29.475982998,
+          "confidence": 0.265283846982,
+          "selected": false,
+          "metrics": {"mse": 0.102719371719, "snrDb": -2.64044230823, "correlation": 0.0295349360535, "rmsError": 0.320498629824, "spectralError": 17.8475405497},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 3},
+          "reasoning": "Score 29.48/100 from CLIPPING evidence."
+        },
+        {
+          "id": "R12",
+          "algorithm": "SPLINE",
+          "score": 29.0484621841,
+          "confidence": 0.261436159657,
+          "selected": false,
+          "metrics": {"mse": 0.107587748694, "snrDb": -2.84154696311, "correlation": 0.0258872428159, "rmsError": 0.328005714423, "spectralError": 18.3982843345},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 4},
+          "reasoning": "Score 29.05/100 from CLIPPING evidence."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 23592,
+      "end": 24008,
+      "damageType": "ZERO_DROPOUT",
+      "selectedHypothesis": "R13",
+      "reverted": false,
+      "hypotheses": [
+        {
+          "id": "R13",
+          "algorithm": "WAVEFORM_MATCH",
+          "score": 61.5046011698,
+          "confidence": 0.59044417123,
+          "selected": true,
+          "metrics": {"mse": 0.0106180161155, "snrDb": 9.97893566057, "correlation": 0.956047573268, "rmsError": 0.103043758256, "spectralError": 3.63891102142},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 1},
+          "reasoning": "Score 61.50/100 from ZERO_DROPOUT evidence. Highest local waveform correlation. Lowest RMS reconstruction error. Strongest spectral continuity. Highest measured SNR. Ranked first among 4 retained hypotheses."
+        },
+        {
+          "id": "R14",
+          "algorithm": "LINEAR",
+          "score": 32.0660152148,
+          "confidence": 0.307833746062,
+          "selected": false,
+          "metrics": {"mse": 0.115806711475, "snrDb": -0.397967830601, "correlation": 0.0477889958526, "rmsError": 0.34030385169, "spectralError": 13.3671520003},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 2},
+          "reasoning": "Score 32.07/100 from ZERO_DROPOUT evidence."
+        },
+        {
+          "id": "R15",
+          "algorithm": "SPLINE",
+          "score": 31.9418035723,
+          "confidence": 0.306641314294,
+          "selected": false,
+          "metrics": {"mse": 0.116602115004, "snrDb": -0.427694817959, "correlation": 0.0429647633439, "rmsError": 0.3414705185, "spectralError": 13.5377376472},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 3},
+          "reasoning": "Score 31.94/100 from ZERO_DROPOUT evidence."
+        },
+        {
+          "id": "R16",
+          "algorithm": "SPECTRAL",
+          "score": 21.0461389444,
+          "confidence": 0.202042933866,
+          "selected": false,
+          "metrics": {"mse": 0.245575405141, "snrDb": -3.6624792299, "correlation": -0.259920301941, "rmsError": 0.49555565292, "spectralError": 13.3846397415},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 4},
+          "reasoning": "Score 21.05/100 from ZERO_DROPOUT evidence."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 27592,
+      "end": 27610,
+      "damageType": "DISCONTINUITY",
+      "selectedHypothesis": "R17",
+      "reverted": false,
+      "hypotheses": [
+        {
+          "id": "R17",
+          "algorithm": "WAVEFORM_MATCH",
+          "score": 92.3680192246,
+          "confidence": 0.665049738417,
+          "selected": true,
+          "metrics": {"mse": 0.000600994460501, "snrDb": 24.6824208084, "correlation": 0.99988365967, "rmsError": 0.0245151883636, "spectralError": 0.0673319658627},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 1},
+          "reasoning": "Score 92.37/100 from DISCONTINUITY evidence. Highest local waveform correlation. Lowest RMS reconstruction error. Strongest spectral continuity. Highest measured SNR. Ranked first among 4 retained hypotheses."
+        },
+        {
+          "id": "R18",
+          "algorithm": "SPLINE",
+          "score": 56.3468377808,
+          "confidence": 0.405697232022,
+          "selected": false,
+          "metrics": {"mse": 0.0915439868926, "snrDb": 2.85482727129, "correlation": 0.907898634219, "rmsError": 0.3025623686, "spectralError": 0.361951099085},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 2},
+          "reasoning": "Score 56.35/100 from DISCONTINUITY evidence."
+        },
+        {
+          "id": "R19",
+          "algorithm": "LINEAR",
+          "score": 54.7467403261,
+          "confidence": 0.394176530348,
+          "selected": false,
+          "metrics": {"mse": 0.100712236738, "snrDb": 2.44030308471, "correlation": 0.882808579109, "rmsError": 0.317351913084, "spectralError": 0.402384087298},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 3},
+          "reasoning": "Score 54.75/100 from DISCONTINUITY evidence."
+        },
+        {
+          "id": "R20",
+          "algorithm": "SPECTRAL",
+          "score": 36.921267901,
+          "confidence": 0.265833128887,
+          "selected": false,
+          "metrics": {"mse": 0.377730832444, "snrDb": -3.30069885874, "correlation": 0.401534192833, "rmsError": 0.614598106444, "spectralError": 0.306383854347},
+          "metadata": {"createdAt": "deterministic-run", "engineVersion": "WalkMan Audio Time Machine 1.0", "evaluationMode": "clean-reference", "candidateRank": 4},
+          "reasoning": "Score 36.92/100 from DISCONTINUITY evidence."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "S1",
+      "label": "automatic best repair",
+      "createdAt": "deterministic-run",
+      "selections": [
+        {"regionId": 1, "hypothesisId": "R1", "reverted": false},
+        {"regionId": 2, "hypothesisId": "R5", "reverted": false},
+        {"regionId": 3, "hypothesisId": "R9", "reverted": false},
+        {"regionId": 4, "hypothesisId": "R13", "reverted": false},
+        {"regionId": 5, "hypothesisId": "R17", "reverted": false}
+      ]
+    }
+  ]
+}
+,
+  "timeline": {
+  "segments": [
+    {"startSample": 0, "endSample": 5592, "startSeconds": 0, "endSeconds": 0.699, "state": "CLEAN", "confidence": 1, "regionId": 0, "reconstructionId": "", "algorithm": ""},
+    {"startSample": 5592, "endSample": 6274, "startSeconds": 0.699, "endSeconds": 0.78425, "state": "RECONSTRUCTED", "confidence": 0.686803975227, "regionId": 1, "reconstructionId": "R1", "algorithm": "WAVEFORM_MATCH"},
+    {"startSample": 6274, "endSample": 12392, "startSeconds": 0.78425, "endSeconds": 1.549, "state": "CLEAN", "confidence": 1, "regionId": 0, "reconstructionId": "", "algorithm": ""},
+    {"startSample": 12392, "endSample": 12853, "startSeconds": 1.549, "endSeconds": 1.606625, "state": "RECONSTRUCTED", "confidence": 0.637911529095, "regionId": 2, "reconstructionId": "R5", "algorithm": "WAVEFORM_MATCH"},
+    {"startSample": 12853, "endSample": 18396, "startSeconds": 1.606625, "endSeconds": 2.2995, "state": "CLEAN", "confidence": 1, "regionId": 0, "reconstructionId": "", "algorithm": ""},
+    {"startSample": 18396, "endSample": 18901, "startSeconds": 2.2995, "endSeconds": 2.362625, "state": "LOW_CONFIDENCE", "confidence": 0.402237000534, "regionId": 3, "reconstructionId": "R9", "algorithm": "SPECTRAL"},
+    {"startSample": 18901, "endSample": 23592, "startSeconds": 2.362625, "endSeconds": 2.949, "state": "CLEAN", "confidence": 1, "regionId": 0, "reconstructionId": "", "algorithm": ""},
+    {"startSample": 23592, "endSample": 24008, "startSeconds": 2.949, "endSeconds": 3.001, "state": "RECONSTRUCTED", "confidence": 0.59044417123, "regionId": 4, "reconstructionId": "R13", "algorithm": "WAVEFORM_MATCH"},
+    {"startSample": 24008, "endSample": 27592, "startSeconds": 3.001, "endSeconds": 3.449, "state": "CLEAN", "confidence": 1, "regionId": 0, "reconstructionId": "", "algorithm": ""},
+    {"startSample": 27592, "endSample": 27610, "startSeconds": 3.449, "endSeconds": 3.45125, "state": "RECONSTRUCTED", "confidence": 0.665049738417, "regionId": 5, "reconstructionId": "R17", "algorithm": "WAVEFORM_MATCH"},
+    {"startSample": 27610, "endSample": 32000, "startSeconds": 3.45125, "endSeconds": 4, "state": "CLEAN", "confidence": 1, "regionId": 0, "reconstructionId": "", "algorithm": ""}
+  ]
+}
+,
+  "confidenceMap": {
+  "weightedConfidence": 0.977298651548,
+  "bands": [
+    {"startSample": 0, "endSample": 5592, "startSeconds": 0, "endSeconds": 0.699, "confidence": 1, "state": "CLEAN", "regionId": 0, "reconstructionId": "", "algorithm": "", "evidence": {"repairAlgorithmScore": 0, "localWaveformContinuity": 0, "spectralContinuity": 0, "neighboringSimilarity": 0, "candidateAgreement": 0, "referenceComparison": 0.5, "untouched": true, "explanation": "Untouched source audio; 100% means original, not guaranteed perfect."}},
+    {"startSample": 5592, "endSample": 6274, "startSeconds": 0.699, "endSeconds": 0.78425, "confidence": 0.684444087165, "state": "RECONSTRUCTED", "regionId": 1, "reconstructionId": "R1", "algorithm": "WAVEFORM_MATCH", "evidence": {"repairAlgorithmScore": 0.715420807528, "localWaveformContinuity": 0.995212149688, "spectralContinuity": 0, "neighboringSimilarity": 0.947066753446, "candidateAgreement": 0.646761893968, "referenceComparison": 0.63402235713, "untouched": false, "explanation": "Weighted evidence: algorithm 72%, waveform 100%, spectrum 0%, neighboring signal 95%, candidate agreement 65%."}},
+    {"startSample": 6274, "endSample": 12392, "startSeconds": 0.78425, "endSeconds": 1.549, "confidence": 1, "state": "CLEAN", "regionId": 0, "reconstructionId": "", "algorithm": "", "evidence": {"repairAlgorithmScore": 0, "localWaveformContinuity": 0, "spectralContinuity": 0, "neighboringSimilarity": 0, "candidateAgreement": 0, "referenceComparison": 0.5, "untouched": true, "explanation": "Untouched source audio; 100% means original, not guaranteed perfect."}},
+    {"startSample": 12392, "endSample": 12853, "startSeconds": 1.549, "endSeconds": 1.606625, "confidence": 0.689229172507, "state": "RECONSTRUCTED", "regionId": 2, "reconstructionId": "R5", "algorithm": "WAVEFORM_MATCH", "evidence": {"repairAlgorithmScore": 0.708790587883, "localWaveformContinuity": 0.995647630578, "spectralContinuity": 0, "neighboringSimilarity": 0.957653034552, "candidateAgreement": 0.687627158398, "referenceComparison": 0.613408821671, "untouched": false, "explanation": "Weighted evidence: algorithm 71%, waveform 100%, spectrum 0%, neighboring signal 96%, candidate agreement 69%."}},
+    {"startSample": 12853, "endSample": 18396, "startSeconds": 1.606625, "endSeconds": 2.2995, "confidence": 1, "state": "CLEAN", "regionId": 0, "reconstructionId": "", "algorithm": "", "evidence": {"repairAlgorithmScore": 0, "localWaveformContinuity": 0, "spectralContinuity": 0, "neighboringSimilarity": 0, "candidateAgreement": 0, "referenceComparison": 0.5, "untouched": true, "explanation": "Untouched source audio; 100% means original, not guaranteed perfect."}},
+    {"startSample": 18396, "endSample": 18901, "startSeconds": 2.2995, "endSeconds": 2.362625, "confidence": 0.563988762077, "state": "RECONSTRUCTED", "regionId": 3, "reconstructionId": "R9", "algorithm": "SPECTRAL", "evidence": {"repairAlgorithmScore": 0.446930000594, "localWaveformContinuity": 0.816697297801, "spectralContinuity": 0, "neighboringSimilarity": 0.795381336927, "candidateAgreement": 0.922161855996, "referenceComparison": 0.178776468006, "untouched": false, "explanation": "Weighted evidence: algorithm 45%, waveform 82%, spectrum 0%, neighboring signal 80%, candidate agreement 92%."}},
+    {"startSample": 18901, "endSample": 23592, "startSeconds": 2.362625, "endSeconds": 2.949, "confidence": 1, "state": "CLEAN", "regionId": 0, "reconstructionId": "", "algorithm": "", "evidence": {"repairAlgorithmScore": 0, "localWaveformContinuity": 0, "spectralContinuity": 0, "neighboringSimilarity": 0, "candidateAgreement": 0, "referenceComparison": 0.5, "untouched": true, "explanation": "Untouched source audio; 100% means original, not guaranteed perfect."}},
+    {"startSample": 23592, "endSample": 24008, "startSeconds": 2.949, "endSeconds": 3.001, "confidence": 0.648763034446, "state": "RECONSTRUCTED", "regionId": 4, "reconstructionId": "R13", "algorithm": "WAVEFORM_MATCH", "evidence": {"repairAlgorithmScore": 0.615046011698, "localWaveformContinuity": 0.978023786634, "spectralContinuity": 0, "neighboringSimilarity": 0.896956241744, "candidateAgreement": 0.751350385555, "referenceComparison": 0.427969590302, "untouched": false, "explanation": "Weighted evidence: algorithm 62%, waveform 98%, spectrum 0%, neighboring signal 90%, candidate agreement 75%."}},
+    {"startSample": 24008, "endSample": 27592, "startSeconds": 3.001, "endSeconds": 3.449, "confidence": 1, "state": "CLEAN", "regionId": 0, "reconstructionId": "", "algorithm": "", "evidence": {"repairAlgorithmScore": 0, "localWaveformContinuity": 0, "spectralContinuity": 0, "neighboringSimilarity": 0, "candidateAgreement": 0, "referenceComparison": 0.5, "untouched": true, "explanation": "Untouched source audio; 100% means original, not guaranteed perfect."}},
+    {"startSample": 27592, "endSample": 27610, "startSeconds": 3.449, "endSeconds": 3.45125, "confidence": 0.90731035443, "state": "RECONSTRUCTED", "regionId": 5, "reconstructionId": "R17", "algorithm": "WAVEFORM_MATCH", "evidence": {"repairAlgorithmScore": 0.923680192246, "localWaveformContinuity": 0.999941829835, "spectralContinuity": 0.932668034137, "neighboringSimilarity": 0.975484811636, "candidateAgreement": 0.677276970835, "referenceComparison": 0.848069165956, "untouched": false, "explanation": "Weighted evidence: algorithm 92%, waveform 100%, spectrum 93%, neighboring signal 98%, candidate agreement 68%."}},
+    {"startSample": 27610, "endSample": 32000, "startSeconds": 3.45125, "endSeconds": 4, "confidence": 1, "state": "CLEAN", "regionId": 0, "reconstructionId": "", "algorithm": "", "evidence": {"repairAlgorithmScore": 0, "localWaveformContinuity": 0, "spectralContinuity": 0, "neighboringSimilarity": 0, "candidateAgreement": 0, "referenceComparison": 0.5, "untouched": true, "explanation": "Untouched source audio; 100% means original, not guaranteed perfect."}}
+  ]
+}
+}
