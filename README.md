@@ -15,27 +15,27 @@ notebook-style demonstrations, and integration into larger C++ applications.
 
 ## Table of Contents
 
-1. ### [Highlights](#highlights)
-2. ### [Capabilities](#capabilities)
-3. ### [Architecture](#architecture)
-4. ### [Processing flow](#processing-flow)
-5. ### [Repair strategies](#repair-strategies)
-6. ### [Audio Time Machine](#audio-time-machine)
-7. ### [Project layout](#project-layout)
-8. ### [Requirements](#requirements)
-9. ### [Build from source](#build-from-source)
-10. ### [Run the original WalkMan demo](#run-the-original-walkman-demo)
-11. ### [Run the Audio Time Machine CLI](#run-the-audio-time-machine-cli)
-12. ### [CLI reference](#cli-reference)
-13. ### [Use the libraries from C++](#use-the-libraries-from-c)
-14. ### [Notebook walkthroughs](#notebook-walkthroughs)
-15. ### [Docker](#docker)
-16. ### [Testing and verification](#testing-and-verification)
-17. ### [Input and output behavior](#input-and-output-behavior)
-18. ### [Scoring and confidence](#scoring-and-confidence)
-19. ### [Troubleshooting](#troubleshooting)
-20. ### [Extension points](#extension-points)
-21. ### [Limitations](#limitations)
+1. #### [Highlights](#highlights)
+2. #### [Capabilities](#capabilities)
+3. #### [Architecture](#architecture)
+4. #### [Processing flow](#processing-flow)
+5. #### [Repair strategies](#repair-strategies)
+6. #### [Audio Time Machine](#audio-time-machine)
+7. #### [Project layout](#project-layout)
+8. #### [Requirements](#requirements)
+9. #### [Build from source](#build-from-source)
+10. #### [Run the original WalkMan demo](#run-the-original-walkman-demo)
+11. #### [Run the Audio Time Machine CLI](#run-the-audio-time-machine-cli)
+12. #### [CLI reference](#cli-reference)
+13. #### [Use the libraries from C++](#use-the-libraries-from-c)
+14. #### [Notebook walkthroughs](#notebook-walkthroughs)
+15. #### [Docker](#docker)
+16. #### [Testing and verification](#testing-and-verification)
+17. #### [Input and output behavior](#input-and-output-behavior)
+18. #### [Scoring and confidence](#scoring-and-confidence)
+19. #### [Troubleshooting](#troubleshooting)
+20. #### [Extension points](#extension-points)
+21. #### [Limitations](#limitations)
 
 ## Highlights
 
@@ -861,11 +861,9 @@ rewriting the existing pipeline:
 - The current build is a source-level CMake project and does not install a
   package configuration or system-wide command.
 
-## License and contribution
+## License & contribution
 
-No license file is currently declared in this repository. Add an explicit
-license before distributing WalkMan outside the project or incorporating it
-into another product.
+No license file is currently declared in this repository. 
 
 Contributions should preserve deterministic tests, keep the core library
 dependency-light, document new CLI behavior, and add coverage for new repair
